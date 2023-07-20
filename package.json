@@ -1,0 +1,29 @@
+{
+  "name": "iracing-data-api-typescript-example",
+  "version": "1.0.0",
+  "description": "An example of authenticating with and using the iRacing data api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianLeblanc98/iRacing-data-api-typescript-example.git"
+  },
+  "author": "Brian LeBlanc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrianLeblanc98/iRacing-data-api-typescript-example/issues"
+  },
+  "homepage": "https://github.com/BrianLeblanc98/iRacing-data-api-typescript-example#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  }
+}
