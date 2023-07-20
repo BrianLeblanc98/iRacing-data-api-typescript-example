@@ -37,7 +37,7 @@ async function loginAndGetHeader(username: string, password: string): Promise<Re
   return headerWithCookies;
 }
 
-// Replace these in using your iRacing username and password
+// Replace these with your iRacing username and password
 const USERNAME = 'example@exmaple.com';
 const PASSWORD = 'Password123!';
 
